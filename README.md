@@ -1,1 +1,1 @@
-# astro-selfmade
+# selfmade
