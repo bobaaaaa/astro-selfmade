@@ -8,9 +8,15 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "oxlint src",
+    "format": "prettier . --write --cache"
   },
   "dependencies": {
-    "astro": "4.5.12"
+    "astro": "4.5.14"
+  },
+  "devDependencies": {
+    "oxlint": "0.2.15",
+    "prettier": "3.2.5"
   }
 }
