@@ -1,22 +1,22 @@
 {
-  "name": "selfmade",
-  "type": "module",
-  "version": "0.0.1",
-  "private": "true",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro",
-    "lint": "oxlint src",
-    "format": "prettier . --write --cache"
-  },
-  "dependencies": {
-    "astro": "4.5.14"
-  },
-  "devDependencies": {
-    "oxlint": "0.2.15",
-    "prettier": "3.2.5"
-  }
+	"name": "selfmade",
+	"type": "module",
+	"version": "0.0.1",
+	"private": "true",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"lint": "oxlint src",
+		"format": "prettier . --write --cache"
+	},
+	"dependencies": {
+		"astro": "4.5.14"
+	},
+	"devDependencies": {
+		"oxlint": "0.2.15",
+		"prettier": "3.2.5"
+	}
 }
