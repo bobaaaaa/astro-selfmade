@@ -8,7 +8,7 @@ interface Props {
 const { description, title } = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 	<head>
 		<meta charset="utf-8" />
@@ -19,7 +19,7 @@ const { description, title } = Astro.props;
 		<title>{title}</title>
 		<ViewTransitions />
 	</head>
-	<body>
+	<body class="bg-primary-50 text-primary-950 dark:bg-primary-950 dark:text-primary-200 antialiased transition">
 		<main>
 			<slot />
 		</main>
