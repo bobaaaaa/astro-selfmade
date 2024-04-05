@@ -1,5 +1,4 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
 interface Props {
 	readonly title: string;
 	readonly description: string;
@@ -17,7 +16,6 @@ const { description, title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={description} />
 		<title>{title}</title>
-		<ViewTransitions />
 	</head>
 	<body class="bg-primary-50 text-primary-950 dark:bg-primary-950 dark:text-primary-200 antialiased transition">
 		<main>
