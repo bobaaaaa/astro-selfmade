@@ -6,11 +6,11 @@ interface Props {
 const { name } = Astro.props;
 ---
 
-<details class="border-primary-900/10 dark:border-primary-300/10 group border-b py-6 text-lg">
+<details class="group border-b border-primary-900/10 py-6 text-lg dark:border-primary-300/10">
 	<summary class="flex list-none items-center justify-between font-medium marker:hidden"
 		>{name}
 		<svg
-			class="text-primary-600 dark:text-primary-400 h-6 w-6 rotate-0 transform transition duration-200 ease-in-out group-open:-rotate-180"
+			class="h-6 w-6 rotate-0 transform text-primary-600 transition duration-200 ease-in-out group-open:-rotate-180 dark:text-primary-400"
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 24 24"
 			fill="currentColor"
@@ -20,7 +20,7 @@ const { name } = Astro.props;
 			></path>
 		</svg>
 	</summary>
-	<div class="text-primary-950/70 dark:text-primary-200/70 text-base">
+	<div class="text-base text-primary-950/70 dark:text-primary-200/70">
 		<slot />
 	</div>
 </details>
