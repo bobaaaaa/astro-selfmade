@@ -11,20 +11,22 @@
 		"astro": "astro",
 		"test": "vitest run",
 		"lint": "oxlint src",
-		"format": "prettier . --write --cache"
+		"format": "prettier . --write --cache",
+		"outdated": "bunx npm-check-updates --root --format group -i",
+		"svg-min": "bunx svgo --folder './public'"
 	},
 	"dependencies": {
-		"astro": "4.5.14"
+		"astro": "4.8.6"
 	},
 	"devDependencies": {
 		"@astrojs/tailwind": "5.1.0",
 		"@ianvs/prettier-plugin-sort-imports": "4.2.1",
 		"tailwindcss": "3.4.3",
-		"oxlint": "0.2.15",
+		"oxlint": "0.3.5",
 		"prettier": "3.2.5",
-		"prettier-plugin-tailwindcss": "0.5.13",
+		"prettier-plugin-tailwindcss": "0.5.14",
 		"prettier-plugin-astro": "0.13.0",
-		"vitest": "1.4.0",
-		"typescript": "5.4.4"
+		"vitest": "1.6.0",
+		"typescript": "5.4.5"
 	}
 }
