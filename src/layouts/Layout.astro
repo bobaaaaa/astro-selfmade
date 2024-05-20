@@ -1,4 +1,6 @@
 ---
+import Header from '../components/Header.astro';
+
 interface Props {
 	readonly title: string;
 	readonly description: string;
@@ -19,6 +21,7 @@ const { description, title } = Astro.props;
 	</head>
 	<body class="bg-primary-50 text-primary-950 antialiased transition dark:bg-primary-950 dark:text-primary-200">
 		<main>
+			<Header />
 			<slot />
 		</main>
 	</body>
